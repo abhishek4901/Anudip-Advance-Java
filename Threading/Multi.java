@@ -24,7 +24,7 @@
  *   1.which task perform by thread written inside of run method
  *   2. No guaranty for output in thread
  *   3. each thread having  
- * 
+ *  
  * 
  * 
  *   Constent variable capital me likhte hai
