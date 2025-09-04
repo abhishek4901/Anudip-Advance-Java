@@ -1,6 +1,6 @@
 
 
-/*
+/*kisi me program by default ek thread hota h chahe bnaye ya nhi that thread name is demon thread
  * multitasking -- to perfrom more than one task a time 
  * two type 
  * 1. by process -- mutliprocessing
@@ -21,9 +21,15 @@
  * Terminate - /Block -- sleep /wait
  * Dead /end -- when run method executed successsfully
  *  Note --Threads provide many method (kisi thread ko class name se access  ho use static method kahte)
+ *   1.which task perform by thread written inside of run method
+ *   2. No guaranty for output in thread
+ *   3. each thread having  
+ * 
+ * 
+ * 
  *   Constent variable capital me likhte hai
  * 
- * Task 1 wap to perfrom task by different thread 
+ * Task 1 wap to perfrom task by different thread (MAX_PRIORITY jiski 10 thread hoge )
  */
 public class Multi implements Runnable {
 
