@@ -37,7 +37,7 @@ public class Multi implements Runnable {
     public void run() {
         // System.out.println(Thread.currentThread().getClass()); //thread methods  
         // System.out.println(Thread.currentThread().getName());
-        // System.out.println(Thread.currentThread().getState());
+        // System.out.println(Thread.currentThread().getState()); 
         // System.out.println(Thread.currentThread().getPriority());
         try {
             for (int i = 0; i < 10; i++) {
