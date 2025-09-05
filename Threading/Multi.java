@@ -23,7 +23,8 @@
  *  Note --Threads provide many method (kisi thread ko class name se access  ho use static method kahte)
  *   1.which task perform by thread written inside of run method
  *   2. No guaranty for output in thread
- *   3. each thread having  
+ *   3. each thread having 
+ *   4. multi threadin use to gaming 
  *  
  * 
  * 
