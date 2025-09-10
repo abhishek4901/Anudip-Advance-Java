@@ -5,18 +5,18 @@ class Book {
     String bookName;
     String author;
 
-    // Default constructor
-    public Book() {
-        bookId = 0;
-        bookName = "Unknown";
-        author = "Unknown"; 
-    }
-
+   
     // Parameterized constructor
     public Book(int id, String name, String auth) {
         bookId = id;
         bookName = name;
         author = auth;
+    }
+ // Default constructor
+    public Book() {
+        bookId = 0;
+        bookName = "Unknown";
+        author = "Unknown"; 
     }
 
     // Display method
