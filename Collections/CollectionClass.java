@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 class Employee {
     int id;
@@ -42,6 +43,13 @@ public class CollectionClass {
         // Displaying employee details
         for (Employee e : l1) {
             e.Display();
+        }
+         // Using Iterator to traverse the list
+        Iterator<Employee> itr = l1.iterator();
+        while (itr.hasNext()) {
+            Employee emp = itr.next();
+            System.out.println(emp); 
+            
         }
     }
 }
