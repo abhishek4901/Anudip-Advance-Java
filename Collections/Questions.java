@@ -9,7 +9,7 @@ class Book {
     public Book() {
         bookId = 0;
         bookName = "Unknown";
-        author = "Unknown";
+        author = "Unknown"; 
     }
 
     // Parameterized constructor
