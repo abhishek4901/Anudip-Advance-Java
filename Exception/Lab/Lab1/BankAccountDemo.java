@@ -9,7 +9,7 @@ class InsufficientFundsException extends Exception {
 // BankAccount class
 class BankAccount {
     private double balance;
-
+ 
     // constructor
     public BankAccount(double initialBalance) {
         this.balance = initialBalance;
