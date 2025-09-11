@@ -38,7 +38,7 @@ public class CalculatorApp {
             System.out.println("Result: " + result);
         } catch (NumberFormatException nfe) {
             System.out.println("Error: Invalid number entered. Please enter a valid numeric value.");
-        } catch (ArithmeticException | IllegalArgumentException ex) {
+        } catch (ArithmeticException ex) {
             System.out.println("Error: " + ex.getMessage());
         } finally {
             sc.close();
