@@ -21,7 +21,7 @@ Note -- we import java.awt.*;  for awt
     step of creating  frame
     1. create object of
     component obj = new component();
-
+ 
     2.  extends frame class
     3. set positions of component
         setBounds(x axis, y axis, width, height)
