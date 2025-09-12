@@ -12,7 +12,7 @@ AWT (abstract window toolkit)  (container ke andr component ate hai)
  1. container -(who contain component) frame, dialog,window, panel
  2. components - (a single unit call component )button, label, textfield, textarea, checkbox, checkboxgroup,
 
- how to create frame 
+ how to create frame m
  1. by extending frame class
     2. by using object of frame class
 Note -- we import java.awt.*;  for awt
