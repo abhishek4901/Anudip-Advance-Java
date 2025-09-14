@@ -21,7 +21,7 @@ class CalculatorNumbers implements ActionListener {
             numberButtons[i].setBounds(x, y, 60, 40);
             numberButtons[i].addActionListener(this);
             frame.add(numberButtons[i]);
-
+ 
             x += 70;
             if (i % 3 == 0) { // move to next row after 3 buttons
                 x = 50;
