@@ -4,9 +4,9 @@
    windoq appllication -  access only single application
     mobile application -  android , ios
 
-                window       web application
-front end(user interface) - AWt/Sweing.    htmml, css /react/ jsp/servlet/spring
-back end (Data) - JDBC/hibernate  jdbc/hibernate/spring data
+                window                      web application
+front end(user interface) - AWT/Swing.    html, css /react/ jsp/servlet/spring
+back end (Data) - JDBC/hibernate           jdbc/hibernate/spring data
 
 AWT (abstract window toolkit)  (container ke andr component ate hai)
  1. container -(who contain component) frame, dialog,window, panel
@@ -30,7 +30,9 @@ Note -- we import java.awt.*;  for awt
     5. call method of container
         setSize(width, height);
         setLayout(null);
-        setVisible(true);   
+        setVisible(true);
+        
+        
     // this java awt program 
         import java.awt.*;//import javaX.swing.*;
         class FirstGui{
