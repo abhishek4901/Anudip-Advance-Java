@@ -82,7 +82,7 @@ class CalculatorLayout implements ActionListener {
                     // Append button text to field
                     t.setText(t.getText().concat(b[i].getText()));
                 }
-            }
+            } 
         }
     }
 
