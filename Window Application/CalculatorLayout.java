@@ -83,10 +83,11 @@ class CalculatorLayout implements ActionListener {
                     t.setText(t.getText().concat(b[i].getText()));
                 }
             } 
-        }
+        } 
     }
 
     public static void main(String[] args) {
         new CalculatorLayout();
     }
 }
+ 
