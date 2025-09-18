@@ -13,7 +13,7 @@ Connection con = DriverManager.getConnection("connection url","root","password")
  step 3 Create Statement
  Statement stmt = con.createStatement(); //createStatement is factory method (class koi aur and object koi aur ka ) 
 
- step 4 Excute the query
+ step 4 Excute the query 
  ResultSet rs = stmt.executeQuery("select * from emp"); //executeQuery is factory method (class koi aur and object koi aur ka  AND only select liye excutequery ,resultset givel data
 
   step 5 . close the connection
