@@ -5,17 +5,15 @@ class InsufficientFundsException extends Exception {
         super(message);
     }
 }
-
-// BankAccount class
 class BankAccount {
     private double balance;
  
-    // constructor
+   
     public BankAccount(double initialBalance) {
         this.balance = initialBalance;
     }
 
-    // deposit method
+ 
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
@@ -39,7 +37,7 @@ class BankAccount {
         return balance;
     }
 }
-public class BankAccountDemo {
+public class BankAccountExample {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         BankAccount account = new BankAccount(1000.0); // initial balance
