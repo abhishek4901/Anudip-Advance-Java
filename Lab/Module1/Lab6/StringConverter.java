@@ -21,7 +21,7 @@ public class StringConverter {
         //  Convert to Lowercase
         String lowerCaseString = sp.processString(originalString, s -> s.toLowerCase());
         System.out.println("Lowercase: " + lowerCaseString);
-
+  
         //  Reverse the String
         String reversedString = sp.processString(originalString, s -> new StringBuilder(s).reverse().toString());
         System.out.println("Reversed: " + reversedString);
