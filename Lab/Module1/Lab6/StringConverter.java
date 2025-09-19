@@ -11,7 +11,7 @@ public class StringConverter {
         Scanner sc = new Scanner(System.in);
         StringProcessor sp = new StringProcessor();
 
-        System.out.print("Enter a string: ");
+        System.out.print("Enter a string: "); 
         String originalString = sc.nextLine();
 
         //  Convert to Uppercase (user string) 
