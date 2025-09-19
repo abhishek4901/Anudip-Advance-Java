@@ -14,7 +14,7 @@ public class StringConverter {
         System.out.print("Enter a string: ");
         String originalString = sc.nextLine();
 
-        //  Convert to Uppercase (user string)
+        //  Convert to Uppercase (user string) 
         String upperCaseString = sp.processString(originalString, s -> s.toUpperCase());
         System.out.println("Uppercase: " + upperCaseString);
 
