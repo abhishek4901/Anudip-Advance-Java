@@ -25,7 +25,7 @@ public class StringConverter {
         //  Reverse the String
         String reversedString = sp.processString(originalString, s -> new StringBuilder(s).reverse().toString());
         System.out.println("Reversed: " + reversedString);
-
+ 
     
     }
 }
