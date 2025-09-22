@@ -5,7 +5,7 @@ JDBC is a java API to connect and execute query with database
 
 
  step 1: Register the drvier class
- Class.forName("com.mysql.cj.jdbc.Driver"); //predifen class so class ka c captial
+ Class.forName("com.mysql.cj.jdbc.Driver"); //predifen class so class ka c captial// for name is factory method(jo kisi aur class ka object de)
 
  step 2 create the connection
 Connection con = DriverManager.getConnection("connection url","root","password"); ///getConnection is factory meethod(jo kisi aur class ka object de)
@@ -13,7 +13,7 @@ Connection con = DriverManager.getConnection("connection url","root","password")
  step 3 Create Statement
  Statement stmt = con.createStatement(); //createStatement is factory method (class koi aur and object koi aur ka ) 
 
- step 4 Excute the query 
+ step 4 Excute the query (only for select query) but excute update for insert ,update,delete
  ResultSet rs = stmt.executeQuery("select * from emp"); //executeQuery is factory method (class koi aur and object koi aur ka  AND only select liye excutequery ,resultset givel data
 
   step 5 . close the connection
@@ -21,6 +21,7 @@ Connection con = DriverManager.getConnection("connection url","root","password")
  * 
  *  use thin driver (pure java me h so no other driver required)
  * 
+ * when change the database then change 1, 2 but when table change 3,4 change
  * 
  */
 //package com.dfg; package name
