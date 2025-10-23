@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>John Doe — Resume</title>
+  <style>
+    /* Basic reset */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: linear-gradient(180deg,#ffd6e8 0%, #fff 40%);
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      color: #222;
+      padding: 32px;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* Card */
+    .resume-card {
+      width: 850px;
+      max-width: 96vw;
+      background: #f7f7fb;
+      border-radius: 8px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      border: 6px solid #ff98c7; /* pink frame like sample */
+      padding: 36px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+    header h1 {
+      font-size: 34px;
+      letter-spacing: 0.6px;
+    }
+    header .email {
+      color: #1a73e8;
+      margin-top: 6px;
+      font-size: 14px;
+    }
+
+    hr.divider {
+      border: none;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #bdbdbd, transparent);
+      margin: 18px 0;
+    }
+
+    section {
+      margin-bottom: 18px;
+    }
+    .section-title {
+      color: #1976d2;
+      font-weight: 700;
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+
+    .education li,
+    .experience li,
+    .skills li {
+      margin: 6px 0;
+      line-height: 1.45;
+    }
+
+    .education em {
+      color: #666;
+      font-style: normal;
+      font-size: 14px;
+    }
+
+    .experience .role {
+      font-weight: 600;
+    }
+    .experience .period {
+      color: #666;
+      font-size: 13px;
+    }
+
+    .skills ul {
+      list-style: none;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .skills li {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .references p {
+      color: #333;
+      font-size: 14px;
+    }
+
+    /* small footer */
+    .note {
+      font-size: 13px;
+      color: #555;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <article class="resume-card" role="article" aria-labelledby="name">
+    <header>
+      <h1 id="name">John Doe</h1>
+      <div class="email">Email: <a href="mailto:john@example.com">john@example.com</a></div>
+    </header>
+
+    <hr class="divider" />
+
+    <section class="education" aria-labelledby="education-title">
+      <div id="education-title" class="section-title">Education</div>
+      <ul>
+        <li>
+          <strong>University Name</strong> — Bachelor's Degree in Computer Science<br />
+          <em>Graduation Date: May 20XX</em>
+        </li>
+      </ul>
+    </section>
+
+    <section class="experience" aria-labelledby="work-title">
+      <div id="work-title" class="section-title">Work Experience</div>
+      <ul>
+        <li>
+          <div class="role">Software Developer at ABC Tech</div>
+          <div class="period">Duration: June 20XX – Present</div>
+          <div class="desc">Worked on web apps, REST APIs, and performance tuning.</div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="skills" aria-labelledby="skills-title">
+      <div id="skills-title" class="section-title">Skills</div>
+      <ul>
+        <li>Programming: Java, JavaScript</li>
+        <li>Web: HTML, CSS, React</li>
+        <li>Databases: MySQL</li>
+      </ul>
+    </section>
+
+    <section class="references" aria-labelledby="ref-title">
+      <div id="ref-title" class="section-title">References</div>
+      <p>Contact available upon request.</p>
+    </section>
+
+    <div class="note">Tip: Replace the sample text with your own details. Use &lt;section&gt; and semantic tags for accessibility.</div>
+  </article>
+</body>
+</html>
