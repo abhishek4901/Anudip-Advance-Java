@@ -5,7 +5,7 @@ class Check{
 {
     if (age>18){
         System.out.println("age is valid ");
-    }
+    } 
     else { 
  
         System.out.println("age is not  valid ");
