@@ -4,7 +4,7 @@ class Check{
  public void validate(int age)
 {
     if (age>18){
-        System.out.println("age is valid ");
+        System.out.println("age is valid "); 
     } 
     else {  
  
