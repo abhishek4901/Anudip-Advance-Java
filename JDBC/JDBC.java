@@ -36,7 +36,7 @@ public class JDBC {
         try {
             // Load MySQL driver
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection(
+            Connection con = DriverManager.getConnection( 
                 "jdbc:mysql://localhost:3306/studentdb", "root", "abhishek"
             );
 
