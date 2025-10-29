@@ -1,7 +1,7 @@
 /* backend 
 how to connect to a database using JDBC
 db use to store data permanently
-JDBC is a java API to connect and execute query with database
+JDBC is a java API to connect and execute query with database 
 
 
  step 1: Register the drvier class
