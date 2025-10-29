@@ -3,7 +3,7 @@ how to connect to a database using JDBC
 db use to store data permanently
 JDBC is a java API to connect and execute query with database 
 
-
+ 
  step 1: Register the drvier class
  Class.forName("com.mysql.cj.jdbc.Driver"); //predifen class so class ka c captial// for name is factory method(jo kisi aur class ka object de)
 
