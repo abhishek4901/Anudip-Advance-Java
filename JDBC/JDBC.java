@@ -37,7 +37,7 @@ public class JDBC {
             // Load MySQL driver
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection( 
-                "jdbc:mysql://localhost:3306/studentdb", "root", "abhishek"
+                "jdbc:mysql://localhost:3306/studentdb", "root", "abhishek" 
             );
 
 //            Statement stmt = con.createStatement();//prepared statement security ,  fast as compare
