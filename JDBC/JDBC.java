@@ -44,7 +44,7 @@ public class JDBC {
             PreparedStatement stmt = con.prepareStatement("SELECT * FROM students");
           ResultSet rs = stmt.executeQuery("SELECT * FROM students");
  
-            // Print results
+            // Print results 
             while (rs.next()) {
                 // ✅ Columns start from 1, adjust as per your table
                 System.out.println(rs.getInt(1) + "  " + rs.getString(2));//in table first
